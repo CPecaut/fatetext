@@ -163,7 +163,7 @@ function gen_gem_guess_form($gemdata, $add_el = true) {
   $elem_arr = array();
   $elem_arr []= gen_input('submit', 'cmd', 'Guess', $add_el);
   $elem_arr []= gen_txt_input('steptxt', '', GUESS_COLS,
-                              '<your guess>', $add_el, true);
+                              '<your guess>', $add_el, true,true);
   $temp_str = PADDING_STR . gen_checkbox('one_line_chk', '', true);
   $temp_str .= ' One-Line Question';
   $elem_arr []= $temp_str;

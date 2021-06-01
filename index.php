@@ -36,8 +36,7 @@ if (web_logged_in()) {
   if($loginAsGuestEnable){
     //login as a guest and land on the search page
     $data = web_init_data('search');
-    //when it lands on the search page, create or search a sentences
-    $data['cmd'] = "Create";
+
 
     $data['username'] = 'guest';
     $data['password'] = 'guest';
