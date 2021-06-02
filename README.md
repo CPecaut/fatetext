@@ -1,3 +1,3 @@
-# FATEtext, Version 0.93
+# The Oracle
 
 Proprietary additional code built upon FameText open-source instance by Christian Pecaut.
